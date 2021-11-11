@@ -1,0 +1,12 @@
+{
+  "name": "vscode-demo-ext",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "applescript": "^1.0.0"
+  }
+}
