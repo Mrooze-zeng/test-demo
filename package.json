@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "oki": "echo hello world"
   },
   "license": "MIT",
   "dependencies": {
     "applescript": "^1.0.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run oki"
+    }
   }
 }
