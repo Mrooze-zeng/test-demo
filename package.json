@@ -5,18 +5,26 @@
   "scripts": {
     "prepare": "husky install",
     "start": "node .",
-    "oki": "echo hello>t.txt"
+    "eslint": "eslint --fix \"**/**.js\"",
+    "prettier": "prettier --write  \"**/**.js\" ",
+    "format": "npm run prettier"
   },
   "license": "MIT",
   "dependencies": {
     "applescript": "^1.0.0"
   },
   "devDependencies": {
-    "husky": "^7.0.4"
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.4.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run oki"
+      "pre-commit": "npm run prettier && eslint . --fix && npm run eslint"
     }
   }
 }

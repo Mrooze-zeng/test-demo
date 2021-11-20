@@ -5,8 +5,8 @@ const {
   getBranches,
   displayDialog,
   checkout,
-  getCurrentBranch,
-} = require("./shell");
+  getCurrentBranch
+} = require('./shell');
 
 const branches = getBranches();
 const currentBranch = getCurrentBranch();
