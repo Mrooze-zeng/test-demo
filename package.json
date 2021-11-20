@@ -7,7 +7,9 @@
     "start": "node .",
     "eslint": "eslint --fix \"**/**.js\"",
     "prettier": "prettier --write  \"**/**.js\" ",
-    "format": "npm run prettier"
+    "format": "npm run prettier",
+    "oki": "ok-hooks",
+    "postinstall": "ok-hooks"
   },
   "license": "MIT",
   "dependencies": {
@@ -26,5 +28,9 @@
     "hooks": {
       "pre-commit": "npm run prettier && eslint . --fix && npm run eslint"
     }
+  },
+  "ok-hooks": {
+    "pre-commit": "echo hello",
+    "test": "dd"
   }
 }
