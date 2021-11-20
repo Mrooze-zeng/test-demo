@@ -29,6 +29,6 @@
   },
   "bb-hooks": {
     "pre-commit": "echo hello",
-    "test": "dd"
+    "post-merge": "echo git pull"
   }
 }
