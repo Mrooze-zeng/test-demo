@@ -173,7 +173,7 @@ eslint-config-prettier@^8.3.0:
 
 eslint-plugin-json@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.nlark.com/eslint-plugin-json/download/eslint-plugin-json-3.1.0.tgz#251108ba1681c332e0a442ef9513bd293619de67"
+  resolved "https://registry.nlark.com/eslint-plugin-json/download/eslint-plugin-json-3.1.0.tgz"
   integrity sha1-JREIuhaBwzLgpELvlRO9KTYZ3mc=
   dependencies:
     lodash "^4.17.21"
@@ -371,7 +371,7 @@ has-flag@^4.0.0:
 
 husky@^7.0.0:
   version "7.0.4"
-  resolved "https://registry.npmmirror.com/husky/download/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
+  resolved "https://registry.npmmirror.com/husky/download/husky-7.0.4.tgz"
   integrity sha1-JCBIJF3EnI+xvwzHz7mN1yJTFTU=
 
 ignore@^4.0.6:
@@ -441,7 +441,7 @@ json-stable-stringify-without-jsonify@^1.0.1:
 
 jsonc-parser@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.nlark.com/jsonc-parser/download/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
+  resolved "https://registry.nlark.com/jsonc-parser/download/jsonc-parser-3.0.0.tgz"
   integrity sha1-q914VwHH5+rKip7IzwcMpRp0WiI=
 
 levn@^0.4.1:
@@ -459,7 +459,7 @@ lodash.merge@^4.6.2:
 
 lodash@^4.17.21:
   version "4.17.21"
-  resolved "https://registry.nlark.com/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  resolved "https://registry.nlark.com/lodash/download/lodash-4.17.21.tgz"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
 lru-cache@^6.0.0:
@@ -635,7 +635,7 @@ v8-compile-cache@^2.0.3:
 
 vscode-json-languageservice@^4.1.6:
   version "4.1.10"
-  resolved "https://registry.npmmirror.com/vscode-json-languageservice/download/vscode-json-languageservice-4.1.10.tgz#5d5729fc4f3e02f41599e0104523a1877c25f0fb"
+  resolved "https://registry.npmmirror.com/vscode-json-languageservice/download/vscode-json-languageservice-4.1.10.tgz"
   integrity sha512-IHliMEEYSY0tJjJt0ECb8ESx/nRXpoy9kN42WVQXgaqGyizFAf3jibSiezDQTrrY7f3kywXggCU+kkJEM+OLZQ==
   dependencies:
     jsonc-parser "^3.0.0"
@@ -646,22 +646,22 @@ vscode-json-languageservice@^4.1.6:
 
 vscode-languageserver-textdocument@^1.0.1:
   version "1.0.2"
-  resolved "https://registry.npmmirror.com/vscode-languageserver-textdocument/download/vscode-languageserver-textdocument-1.0.2.tgz?cache=0&sync_timestamp=1633677962746&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-languageserver-textdocument%2Fdownload%2Fvscode-languageserver-textdocument-1.0.2.tgz#2f9f6bd5b5eb3d8e21424c0c367009216f016236"
+  resolved "https://registry.npmmirror.com/vscode-languageserver-textdocument/download/vscode-languageserver-textdocument-1.0.2.tgz?cache=0&sync_timestamp=1633677962746&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-languageserver-textdocument%2Fdownload%2Fvscode-languageserver-textdocument-1.0.2.tgz"
   integrity sha1-L59r1bXrPY4hQkwMNnAJIW8BYjY=
 
 vscode-languageserver-types@^3.16.0:
   version "3.16.0"
-  resolved "https://registry.npmmirror.com/vscode-languageserver-types/download/vscode-languageserver-types-3.16.0.tgz?cache=0&sync_timestamp=1633677962429&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-languageserver-types%2Fdownload%2Fvscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
+  resolved "https://registry.npmmirror.com/vscode-languageserver-types/download/vscode-languageserver-types-3.16.0.tgz?cache=0&sync_timestamp=1633677962429&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fvscode-languageserver-types%2Fdownload%2Fvscode-languageserver-types-3.16.0.tgz"
   integrity sha1-7POT/BIexpdLLaPvsxVWRMUU4kc=
 
 vscode-nls@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npm.taobao.org/vscode-nls/download/vscode-nls-5.0.0.tgz#99f0da0bd9ea7cda44e565a74c54b1f2bc257840"
+  resolved "https://registry.npm.taobao.org/vscode-nls/download/vscode-nls-5.0.0.tgz"
   integrity sha1-mfDaC9nqfNpE5WWnTFSx8rwleEA=
 
 vscode-uri@^3.0.2:
   version "3.0.2"
-  resolved "https://registry.nlark.com/vscode-uri/download/vscode-uri-3.0.2.tgz#ecfd1d066cb8ef4c3a208decdbab9a8c23d055d0"
+  resolved "https://registry.nlark.com/vscode-uri/download/vscode-uri-3.0.2.tgz"
   integrity sha1-7P0dBmy470w6II3s26uajCPQVdA=
 
 which@^2.0.1:

@@ -7,8 +7,7 @@
     "eslint": "eslint --fix \"**/**.js\"",
     "prettier": "prettier --write  \"**/**.js\" ",
     "format": "npm run prettier",
-    "oki": "ok-hooks",
-    "postinstall": "ok-hooks"
+    "postinstall": "npx bb-hooks"
   },
   "license": "MIT",
   "dependencies": {
