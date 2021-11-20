@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo ":) bb-hooks run..."
+
+echo git pull
