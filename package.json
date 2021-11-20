@@ -7,7 +7,7 @@
     "eslint": "eslint --fix \"**/**.js\"",
     "prettier": "prettier --write  \"**/**.js\" ",
     "format": "npm run prettier",
-    "postinstall": "bb-hooks"
+    "postinstall": "bb-hooks "
   },
   "license": "MIT",
   "dependencies": {
