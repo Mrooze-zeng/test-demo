@@ -27,7 +27,7 @@
       "pre-commit": "npm run prettier && eslint . --fix && npm run eslint"
     }
   },
-  "ok-hooks": {
+  "bb-hooks": {
     "pre-commit": "echo hello",
     "test": "dd"
   }
